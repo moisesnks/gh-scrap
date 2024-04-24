@@ -2,50 +2,39 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import re
+from scrap.github_issue_comment import GitHubIssueCommentScraper
 
 class GitHubIssueScraper:
     def __init__(self, url):
         self.url = url
 
     def scrape_issues(self):
-        """
-        Método para extraer los datos de las issues de una página de GitHub.
-
-        Returns:
-        - Una lista de diccionarios, donde cada diccionario contiene los datos de una issue.
-        """
         try:
-            # Hacer una solicitud GET a la página web
             response = requests.get(self.url)
-
-            # Verificar si la solicitud fue exitosa (código de estado 200)
             if response.status_code == 200:
-                # Parsear el contenido HTML con BeautifulSoup
                 soup = BeautifulSoup(response.text, "html.parser")
-
-                # Encuentra los elementos que contienen los issues en la página
                 issues_divs = soup.find_all("div", class_="flex-auto min-width-0 p-2 pr-3 pr-md-2")
-
-                # Lista para almacenar los datos de las issues
                 issues_data = []
 
-                # Iterar sobre cada elemento div encontrado
                 for issue_div in issues_divs:
-                    # Extraer los datos relevantes
                     title = issue_div.find("a", class_="Link--primary").text.strip()
-                    issue_number = re.search(r'\d+', issue_div.find("span", class_="opened-by").text.strip()).group() 
+                    issue_number = re.search(r'\d+', issue_div.find("span", class_="opened-by").text.strip()).group()
                     opened_by = issue_div.find("a", class_="Link--muted").text.strip()
                     opened_date = issue_div.find("relative-time").text.strip()
+
+                    # Obtener el project_info de la issue
+                    issue_url = f"{self.url}/{issue_number}"
+                    comment_scraper = GitHubIssueCommentScraper(issue_url)
+                    project_info = comment_scraper.scrape_project_info()
 
                     # Crear un diccionario con los datos de la issue
                     issue_info = {
                         "title": title,
                         "issue_number": issue_number,
                         "opened_by": opened_by,
-                        "opened_date": opened_date
+                        "opened_date": opened_date,
+                        "project_info": project_info if project_info else "No project info found."
                     }
-
-                    # Agregar el diccionario a la lista de datos de issues
                     issues_data.append(issue_info)
 
                 return issues_data

@@ -1,0 +1,170 @@
+[
+    {
+        "title": " workflow",
+        "tag": "",
+        "issue_number": "15",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 24, 2024",
+        "project_info": "No project info found."
+    },
+    {
+        "title": "Investigacion de workflow",
+        "tag": "Investigacion",
+        "issue_number": "14",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 24, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Agregar una implementación a Cartera",
+        "tag": "Agregar",
+        "issue_number": "13",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 24, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Botón con el logo de la aplicación - vender",
+        "tag": "Botón",
+        "issue_number": "12",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 24, 2024",
+        "project_info": "No project info found."
+    },
+    {
+        "title": "Botón con el logo de la aplicación - Comprar",
+        "tag": "Botón",
+        "issue_number": "11",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 24, 2024",
+        "project_info": "No project info found."
+    },
+    {
+        "title": "Corrección de olvidaste tu contraseña",
+        "tag": "Corrección",
+        "issue_number": "10",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Vista de cartera modificada",
+        "tag": "Vista",
+        "issue_number": "9",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Base de datos",
+        "tag": "Base",
+        "issue_number": "8",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Base de datos",
+        "tag": "Base",
+        "issue_number": "7",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Proceso para recopilación de información",
+        "tag": "Proceso",
+        "issue_number": "6",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Brechas de seguridad",
+        "tag": "Brechas",
+        "issue_number": "5",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Autenticacion",
+        "tag": "Autenticacion",
+        "issue_number": "4",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Cambio de Navbar 1",
+        "tag": "Cambio",
+        "issue_number": "3",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Vista de Perfil Usuario",
+        "tag": "Vista",
+        "issue_number": "2",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Correcion de TopBar",
+        "tag": "Correcion",
+        "issue_number": "1",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 23, 2024",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    }
+]

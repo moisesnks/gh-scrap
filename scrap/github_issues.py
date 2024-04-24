@@ -17,10 +17,19 @@ class GitHubIssueScraper:
                 issues_data = []
 
                 for issue_div in issues_divs:
-                    title = issue_div.find("a", class_="Link--primary").text.strip()
+                    title_anchor = issue_div.find("a", class_="Link--primary")
+                    title = title_anchor.text.strip()
+                    tag = ""
+                    if title.startswith("(") and ")" in title:
+                        tag, title = title.split(") ", 1)
+                        tag = tag[1:]  # Eliminar el paréntesis inicial
                     issue_number = re.search(r'\d+', issue_div.find("span", class_="opened-by").text.strip()).group()
                     opened_by = issue_div.find("a", class_="Link--muted").text.strip()
                     opened_date = issue_div.find("relative-time").text.strip()
+
+                    # Obtener la cantidad de tareas
+                    tasks_span = issue_div.find("span", class_="text-normal no-wrap mr-1 ml-1")
+                    num_tasks = tasks_span.text.split()[0] if tasks_span else "0"
 
                     # Obtener el project_info de la issue
                     issue_url = f"{self.url}/{issue_number}"
@@ -30,9 +39,11 @@ class GitHubIssueScraper:
                     # Crear un diccionario con los datos de la issue
                     issue_info = {
                         "title": title,
+                        "tag": tag,
                         "issue_number": issue_number,
                         "opened_by": opened_by,
                         "opened_date": opened_date,
+                        "num_tasks": num_tasks,
                         "project_info": project_info if project_info else "No project info found."
                     }
                     issues_data.append(issue_info)

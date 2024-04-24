@@ -1,0 +1,9 @@
+# env
+env
+
+# pycache
+__pycache__
+
+.vscode
+
+output/issues/*

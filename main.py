@@ -49,7 +49,7 @@ def get_all_issues(issues_url, output_dir="output"):
 
 if __name__ == "__main__":
     issues_url = "https://github.com/tssw2024/sprint-2/issues"
-    GitHubIssueScraper(issues_url).fetch_issues("issues.json")
+    get_all_issues(issues_url)
     
 
    

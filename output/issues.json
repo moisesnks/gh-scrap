@@ -1,18 +1,24 @@
 [
     {
-        "title": " workflow",
-        "tag": "",
-        "issue_number": "15",
+        "title": "API",
+        "tag": "Spike - Backend",
+        "issue_number": "17",
         "opened_by": "zkodah",
-        "opened_date": "Apr 24, 2024",
-        "project_info": "No project info found."
+        "opened_date": "Apr 26, 2024",
+        "num_tasks": "3",
+        "project_info": {
+            "Priority": "P0",
+            "Size": "XS",
+            "Estimate": "4"
+        }
     },
     {
-        "title": "Investigacion de workflow",
-        "tag": "Investigacion",
-        "issue_number": "14",
+        "title": "Go",
+        "tag": "Spike - Backend",
+        "issue_number": "16",
         "opened_by": "zkodah",
         "opened_date": "Apr 24, 2024",
+        "num_tasks": "2",
         "project_info": {
             "Priority": "",
             "Size": "",
@@ -20,11 +26,25 @@
         }
     },
     {
-        "title": "Agregar una implementación a Cartera",
-        "tag": "Agregar",
-        "issue_number": "13",
+        "title": " workflow",
+        "tag": "Feature - Devops",
+        "issue_number": "15",
         "opened_by": "zkodah",
         "opened_date": "Apr 24, 2024",
+        "num_tasks": "3",
+        "project_info": {
+            "Priority": "",
+            "Size": "",
+            "Estimate": ""
+        }
+    },
+    {
+        "title": "Investigacion de workflow",
+        "tag": "Spike - Devops",
+        "issue_number": "14",
+        "opened_by": "zkodah",
+        "opened_date": "Apr 24, 2024",
+        "num_tasks": "2",
         "project_info": {
             "Priority": "",
             "Size": "",
@@ -33,38 +53,50 @@
     },
     {
         "title": "Botón con el logo de la aplicación - vender",
-        "tag": "Botón",
+        "tag": "Feature - Frontend",
         "issue_number": "12",
         "opened_by": "zkodah",
         "opened_date": "Apr 24, 2024",
-        "project_info": "No project info found."
+        "num_tasks": "4",
+        "project_info": {
+            "Priority": "P1",
+            "Size": "L",
+            "Estimate": "6"
+        }
     },
     {
         "title": "Botón con el logo de la aplicación - Comprar",
-        "tag": "Botón",
+        "tag": "Feature - Frontend",
         "issue_number": "11",
         "opened_by": "zkodah",
         "opened_date": "Apr 24, 2024",
-        "project_info": "No project info found."
+        "num_tasks": "4",
+        "project_info": {
+            "Priority": "P1",
+            "Size": "L",
+            "Estimate": "6"
+        }
     },
     {
         "title": "Corrección de olvidaste tu contraseña",
-        "tag": "Corrección",
+        "tag": "Feature - Frontend",
         "issue_number": "10",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "1",
         "project_info": {
-            "Priority": "",
-            "Size": "",
-            "Estimate": ""
+            "Priority": "P1",
+            "Size": "M",
+            "Estimate": "6"
         }
     },
     {
         "title": "Vista de cartera modificada",
-        "tag": "Vista",
+        "tag": "Feature - Frontend",
         "issue_number": "9",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "3",
         "project_info": {
             "Priority": "",
             "Size": "",
@@ -73,10 +105,11 @@
     },
     {
         "title": "Base de datos",
-        "tag": "Base",
+        "tag": "Feature - Infraestructure",
         "issue_number": "8",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "4",
         "project_info": {
             "Priority": "",
             "Size": "",
@@ -85,10 +118,11 @@
     },
     {
         "title": "Base de datos",
-        "tag": "Base",
+        "tag": "Spike - Infraestructure",
         "issue_number": "7",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "3",
         "project_info": {
             "Priority": "",
             "Size": "",
@@ -97,10 +131,11 @@
     },
     {
         "title": "Proceso para recopilación de información",
-        "tag": "Proceso",
+        "tag": "Spike - Qa",
         "issue_number": "6",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "1",
         "project_info": {
             "Priority": "",
             "Size": "",
@@ -109,10 +144,11 @@
     },
     {
         "title": "Brechas de seguridad",
-        "tag": "Brechas",
+        "tag": "Spike - Qa",
         "issue_number": "5",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "5",
         "project_info": {
             "Priority": "",
             "Size": "",
@@ -121,10 +157,11 @@
     },
     {
         "title": "Autenticacion",
-        "tag": "Autenticacion",
+        "tag": "Feature - Qa",
         "issue_number": "4",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "2",
         "project_info": {
             "Priority": "",
             "Size": "",
@@ -133,37 +170,40 @@
     },
     {
         "title": "Cambio de Navbar 1",
-        "tag": "Cambio",
+        "tag": "Feature - Frontend",
         "issue_number": "3",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "3",
         "project_info": {
-            "Priority": "",
-            "Size": "",
+            "Priority": "P0",
+            "Size": "XL",
             "Estimate": ""
         }
     },
     {
         "title": "Vista de Perfil Usuario",
-        "tag": "Vista",
+        "tag": "Feature - Frontend",
         "issue_number": "2",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "5",
         "project_info": {
-            "Priority": "",
-            "Size": "",
-            "Estimate": ""
+            "Priority": "P1",
+            "Size": "L",
+            "Estimate": "8"
         }
     },
     {
         "title": "Correcion de TopBar",
-        "tag": "Correcion",
+        "tag": "Feature - Frontend",
         "issue_number": "1",
         "opened_by": "zkodah",
         "opened_date": "Apr 23, 2024",
+        "num_tasks": "1",
         "project_info": {
-            "Priority": "",
-            "Size": "",
+            "Priority": "P0",
+            "Size": "XS",
             "Estimate": ""
         }
     }
